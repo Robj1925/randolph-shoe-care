@@ -1,71 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Premium Shoe Restoration in Hightstown, NJ | Randolph Shoe Care</title>
   <meta name="description" content="Randolph Shoe Care offers premium shoe repair, restoration, and polishing. Extraordinary craftsmanship for leather boots, designer shoes, and sneakers. Call (609) 865-6653 to book.">
   <link rel="stylesheet" href="./dist/output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
 </head>
-<body class="font-body">
+<body class="bg-club-dark text-club-light">
 
   <!-- Header -->
-  <header class="sticky top-0 z-50 bg-club-dark/95 border-b border-club-gray backdrop-blur-md">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <span class="text-2xl font-heading font-bold text-club-gold">Randolph Shoe Care</span>
-      <nav class="hidden md:flex space-x-6 text-club-light">
+  <header class="sticky top-0 z-50 bg-club-dark/90 backdrop-blur-md border-b border-club-gray">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-bold text-club-gold tracking-tighter">Randolph Shoe Care</h1>
+      <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide uppercase">
         <a href="#about" class="hover:text-club-gold transition">About</a>
         <a href="#services" class="hover:text-club-gold transition">Services</a>
-        <a href="#gallery" class="hover:text-club-gold transition">Portfolio</a>
+        <a href="#gallery" class="hover:text-club-gold transition">Gallery</a>
         <a href="#contact" class="hover:text-club-gold transition">Contact</a>
       </nav>
-      <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-5 py-2.5 rounded text-sm hover:bg-yellow-400 transition">Call to Book</a>
+      <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-6 py-2 rounded-full hover:bg-yellow-400 transition">Book Now</a>
     </div>
   </header>
 
-  <main>
-    <!-- Hero Section -->
-    <section class="relative bg-club-gray py-24 text-center px-4">
-      <h1 class="text-5xl md:text-6xl font-bold text-club-light mb-6">Premium Footwear Restoration</h1>
-      <p class="text-xl text-club-light mb-10 max-w-2xl mx-auto">Extraordinary craftsmanship for leather boots, designer shoes, and sneakers. Give your favorites a second life.</p>
-      <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-400 transition">Call (609) 865-6653</a>
-    </section>
+  <!-- Hero Section -->
+  <section class="py-24 text-center bg-gradient-to-b from-club-gray to-club-dark border-b border-club-gray">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="text-club-gold tracking-widest uppercase text-xs font-bold mb-4 block">Expert Cobbler in Hightstown</span>
+      <h1 class="text-6xl md:text-7xl font-bold mb-8">Revive Your Favorites</h1>
+      <p class="text-xl text-gray-400 mb-10 leading-relaxed">Extraordinary craftsmanship for leather boots, designer shoes, and sneakers. Give your favorite pair a second life with Randolph's expert restoration.</p>
+      <div class="flex justify-center gap-4">
+        <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-400 transition">Call (609) 865-6653</a>
+        <a href="#gallery" class="border border-club-gray px-8 py-4 rounded-full text-lg hover:bg-club-gray transition">View Portfolio</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 max-w-5xl mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-club-gold mb-6">Quality Craftsmanship</h2>
-      <p class="text-club-light leading-relaxed mb-6">With a 4.7-star reputation for extraordinary craftsmanship, Randolph provides honest, personalized advice and expert repairs that make damaged footwear look brand new.</p>
-      <a href="https://businessrate.com/awards/presentation/v2?cc=XPXXEV" target="_blank" class="inline-block border border-club-gold text-club-gold px-6 py-2 rounded hover:bg-club-gold hover:text-club-dark transition">View BusinessRate Award</a>
-    </section>
+  <!-- About / Award Section -->
+  <section id="about" class="py-24 px-4 text-center">
+    <h2 class="text-4xl mb-6">Quality Craftsmanship</h2>
+    <p class="max-w-2xl mx-auto text-gray-300 leading-relaxed mb-10">With a 4.7-star reputation for extraordinary craftsmanship, Randolph provides honest, personalized advice and expert repairs that make damaged footwear look brand new.</p>
+    <a href="https://businessrate.com/awards/presentation/v2?cc=XPXXEV" target="_blank" class="inline-block bg-club-gray text-club-gold px-8 py-3 rounded-full hover:bg-club-gold hover:text-club-dark transition">View Our BusinessRate Award</a>
+  </section>
 
-    <!-- Gallery Section (Showing categorized images) -->
-    <section id="gallery" class="py-20 bg-club-gray">
-      <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl font-bold text-club-gold text-center mb-12">Our Portfolio</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="./assets/shoe_repair_1.jpg" class="aspect-square object-cover rounded" alt="Shoe Repair">
-          <img src="./assets/dress_shoes_1.jpg" class="aspect-square object-cover rounded" alt="Dress Shoes">
-          <img src="./assets/sneakers_1.jpg" class="aspect-square object-cover rounded" alt="Sneakers">
-          <img src="./assets/storefront_1.jpg" class="aspect-square object-cover rounded" alt="Storefront">
+  <!-- Portfolio Gallery -->
+  <section id="gallery" class="py-24 bg-club-gray">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl text-center mb-16">Expert Restoration Work</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Gallery items will be populated by categorized assets -->
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/shoe_repair_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Shoe Repair">
+        </div>
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/dress_shoes_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Dress Shoes">
+        </div>
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/sneakers_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Sneakers">
+        </div>
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/shoe_repair_6.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Restoration Work">
+        </div>
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/dress_shoes_7.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Formal Shoes">
+        </div>
+        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
+          <img src="./assets/products_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Care Products">
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 max-w-4xl mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-club-gold mb-8">Visit Us</h2>
-      <p class="text-club-light mb-4">200 Mercer St, Hightstown, NJ 08520</p>
-      <p class="text-club-light mb-8">Phone: <a href="tel:6098656653" class="text-club-gold font-bold">(609) 865-6653</a></p>
-      <div class="text-club-light space-y-2">
+  <!-- Contact -->
+  <section id="contact" class="py-24 text-center">
+    <h2 class="text-4xl mb-12">Visit Our Shop</h2>
+    <div class="max-w-lg mx-auto bg-club-gray p-8 rounded-xl border border-club-gray">
+      <p class="text-lg mb-2">200 Mercer St, Hightstown, NJ 08520</p>
+      <p class="text-club-gold text-2xl font-bold mb-8">Call: (609) 865-6653</p>
+      <div class="text-gray-400 space-y-1 text-sm">
         <p>Mon: 9:00 AM – 12:30 PM</p>
         <p>Tue-Thu: 9:00 AM – 4:30 PM</p>
         <p>Fri: 9:00 AM – 6:00 PM</p>
         <p>Sat: 10:00 AM – 2:00 PM</p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="py-10 text-center text-club-gray border-t border-club-gray">
+  <footer class="py-10 text-center border-t border-club-gray text-gray-500 text-sm">
     <p>&copy; 2026 Randolph Shoe Care. All rights reserved.</p>
   </footer>
 </body>
