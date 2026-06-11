@@ -1,98 +1,348 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Shoe Restoration in Hightstown, NJ | Randolph Shoe Care</title>
-  <meta name="description" content="Randolph Shoe Care offers premium shoe repair, restoration, and polishing. Extraordinary craftsmanship for leather boots, designer shoes, and sneakers. Call (609) 865-6653 to book.">
-  <link rel="stylesheet" href="./dist/output.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-    h1, h2, h3 { font-family: 'Playfair Display', serif; }
-  </style>
+  <title>Premium Shoe Repair & Restoration | Randolph Shoe Care Hightstown NJ</title>
+  <meta name="description" content="Randolph Shoe Care provides premium shoe repair, cleaning, and complete restoration services in Hightstown, NJ. Call (609) 865-6653 for expert leather craftsmanship.">
+  <link rel="stylesheet" href="./index.css">
 </head>
-<body class="bg-club-dark text-club-light">
+<body>
 
-  <!-- Header -->
-  <header class="sticky top-0 z-50 bg-club-dark/90 backdrop-blur-md border-b border-club-gray">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-      <h1 class="text-2xl font-bold text-club-gold tracking-tighter">Randolph Shoe Care</h1>
-      <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide uppercase">
-        <a href="#about" class="hover:text-club-gold transition">About</a>
-        <a href="#services" class="hover:text-club-gold transition">Services</a>
-        <a href="#gallery" class="hover:text-club-gold transition">Gallery</a>
-        <a href="#contact" class="hover:text-club-gold transition">Contact</a>
+  <!-- Glassmorphic Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">Randolph <span>Shoe Care</span></div>
+      <nav class="main-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </nav>
-      <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-6 py-2 rounded-full hover:bg-yellow-400 transition">Book Now</a>
+      <a href="tel:6098656653" class="cta-btn">Call to Book</a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="py-24 text-center bg-gradient-to-b from-club-gray to-club-dark border-b border-club-gray">
-    <div class="max-w-3xl mx-auto px-4">
-      <span class="text-club-gold tracking-widest uppercase text-xs font-bold mb-4 block">Expert Cobbler in Hightstown</span>
-      <h1 class="text-6xl md:text-7xl font-bold mb-8">Revive Your Favorites</h1>
-      <p class="text-xl text-gray-400 mb-10 leading-relaxed">Extraordinary craftsmanship for leather boots, designer shoes, and sneakers. Give your favorite pair a second life with Randolph's expert restoration.</p>
-      <div class="flex justify-center gap-4">
-        <a href="tel:6098656653" class="bg-club-gold text-club-dark font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-400 transition">Call (609) 865-6653</a>
-        <a href="#gallery" class="border border-club-gray px-8 py-4 rounded-full text-lg hover:bg-club-gray transition">View Portfolio</a>
+  <section class="hero-section">
+    <span class="hero-subtitle">Extraordinary Craftsmanship Since 1999</span>
+    <h1 class="hero-title">Revive Your Favorite Footwear</h1>
+    <p class="hero-description">
+      Specializing in premium leather restorations, designer shoe repairs, and athletic sneaker cleaning. Trust Randolph's expert hand-craftsmanship in Hightstown, NJ.
+    </p>
+    <div class="hero-ctas">
+      <a href="tel:6098656653" class="btn-primary">Call (609) 865-6653</a>
+      <a href="#gallery" class="btn-secondary">View Our Work</a>
+    </div>
+  </section>
+
+  <!-- About & Award Section -->
+  <section id="about" class="about-section">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Preserving Quality & Comfort</h2>
+        <p>
+          Every pair of shoes tells a story. At Randolph Shoe Care, we help you extend those stories. Backed by a 4.7-star rating, we combine traditional cobbling methods with premium modern products to revive dress shoes, rugged boots, high-end designer pieces, and favorite everyday sneakers.
+        </p>
+        <p>
+          We take pride in providing honest advice and premium materials. Whether it's a simple heel replacement or a full sole restoration, your shoes are treated with the highest care.
+        </p>
+      </div>
+      <div class="badge-card">
+        <span class="badge-icon">🏆</span>
+        <h3>BusinessRate Award</h3>
+        <p>Recognized for outstanding business performance and dedication to customer service in Hightstown, NJ.</p>
+        <a href="https://businessrate.com/awards/presentation/v2?cc=XPXXEV" target="_blank" rel="noopener noreferrer" class="badge-link">
+          View Award Verification →
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- About / Award Section -->
-  <section id="about" class="py-24 px-4 text-center">
-    <h2 class="text-4xl mb-6">Quality Craftsmanship</h2>
-    <p class="max-w-2xl mx-auto text-gray-300 leading-relaxed mb-10">With a 4.7-star reputation for extraordinary craftsmanship, Randolph provides honest, personalized advice and expert repairs that make damaged footwear look brand new.</p>
-    <a href="https://businessrate.com/awards/presentation/v2?cc=XPXXEV" target="_blank" class="inline-block bg-club-gray text-club-gold px-8 py-3 rounded-full hover:bg-club-gold hover:text-club-dark transition">View Our BusinessRate Award</a>
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="section-header">
+      <h2>Expert Services</h2>
+      <p>Premium care solutions tailored to the needs of every shoe type.</p>
+    </div>
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card">
+        <div class="service-icon">🛠️</div>
+        <h3>General Repairs</h3>
+        <p>Extend the life of your favorite shoes with top-grade sole and heel replacements.</p>
+        <ul class="service-features">
+          <li>Leather & rubber half/full soles</li>
+          <li>Protective sole guards</li>
+          <li>Heel tip replacement</li>
+          <li>Stitching & patch repairs</li>
+        </ul>
+      </div>
+      <!-- Card 2 -->
+      <div class="service-card">
+        <div class="service-icon">✨</div>
+        <h3>Restoration & Shine</h3>
+        <p>Deep cleaning, color restoration, and polishing to bring back that original showroom shine.</p>
+        <ul class="service-features">
+          <li>Hand cleaning & conditioning</li>
+          <li>Edge dressing & detailing</li>
+          <li>Salt & water stain removal</li>
+          <li>Suede & nubuck rejuvenation</li>
+        </ul>
+      </div>
+      <!-- Card 3 -->
+      <div class="service-card">
+        <div class="service-icon">👟</div>
+        <h3>Specialty Work</h3>
+        <p>Masterful repairs on luxury designer brands, riding boots, and sneaker collections.</p>
+        <ul class="service-features">
+          <li>Giuseppe Zanotti & luxury repairs</li>
+          <li>Sneaker deep-cleaning & paint touch-ups</li>
+          <li>Eyelet & zipper replacements</li>
+          <li>Custom fitting & stretching</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <!-- Portfolio Gallery -->
-  <section id="gallery" class="py-24 bg-club-gray">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-4xl text-center mb-16">Expert Restoration Work</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Gallery items will be populated by categorized assets -->
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/shoe_repair_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Shoe Repair">
+  <!-- Portfolio Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="section-header">
+      <h2>Craftsmanship Showcase</h2>
+      <p>Click on any photo to view in high resolution.</p>
+    </div>
+    <div class="gallery-tabs">
+      <button class="tab-btn active" onclick="filterGallery('all')">All Work</button>
+      <button class="tab-btn" onclick="filterGallery('repairs')">Repairs & Soles</button>
+      <button class="tab-btn" onclick="filterGallery('dress')">Dress & Leather</button>
+    </div>
+    <div class="gallery-grid">
+      <!-- Repairs -->
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_1.jpg" alt="Shoe repair example">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Heel & Sole Replacement</h4>
+            <p>Repairs & Soles</p>
+          </div>
         </div>
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/dress_shoes_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Dress Shoes">
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_2.jpg" alt="Stitching and structural repair">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Structural Re-sole</h4>
+            <p>Repairs & Soles</p>
+          </div>
         </div>
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/sneakers_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Sneakers">
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_3.jpg" alt="Resoling boots">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Boot Restoration</h4>
+            <p>Repairs & Soles</p>
+          </div>
         </div>
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/shoe_repair_6.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Restoration Work">
+      </div>
+      <!-- Dress Shoes -->
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_1.jpg" alt="Polished brown dress shoe">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Classic Oxford Shine</h4>
+            <p>Dress & Leather</p>
+          </div>
         </div>
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/dress_shoes_7.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Formal Shoes">
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_2.jpg" alt="Polished black leather shoes">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Leather Conditioning</h4>
+            <p>Dress & Leather</p>
+          </div>
         </div>
-        <div class="group relative aspect-square overflow-hidden rounded-xl border border-club-gray">
-          <img src="./assets/products_1.jpg" class="object-cover w-full h-full group-hover:scale-110 transition duration-500" alt="Care Products">
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_3.jpg" alt="Luxury designer shoe service">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Premium Detail & Color</h4>
+            <p>Dress & Leather</p>
+          </div>
+        </div>
+      </div>
+      <!-- Mixed category highlights -->
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_4.jpg" alt="Sole repair closeup">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Full Sole Stitching</h4>
+            <p>Repairs & Soles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_4.jpg" alt="Dress shoe restoration">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Restored Loafers</h4>
+            <p>Dress & Leather</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_5.jpg" alt="Cobbler finishing sole">
+        <div class="gallery-overlay">
+          <div class="gallery-info">
+            <h4>Precision Edging</h4>
+            <p>Repairs & Soles</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-24 text-center">
-    <h2 class="text-4xl mb-12">Visit Our Shop</h2>
-    <div class="max-w-lg mx-auto bg-club-gray p-8 rounded-xl border border-club-gray">
-      <p class="text-lg mb-2">200 Mercer St, Hightstown, NJ 08520</p>
-      <p class="text-club-gold text-2xl font-bold mb-8">Call: (609) 865-6653</p>
-      <div class="text-gray-400 space-y-1 text-sm">
-        <p>Mon: 9:00 AM – 12:30 PM</p>
-        <p>Tue-Thu: 9:00 AM – 4:30 PM</p>
-        <p>Fri: 9:00 AM – 6:00 PM</p>
-        <p>Sat: 10:00 AM – 2:00 PM</p>
+  <!-- Contact & Location Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Visit Our Workshop</h2>
+        <p>Drop by during our operating hours or call us directly with any questions or for quick quotes on custom restorations.</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <a href="tel:6098656653"><strong>(609) 865-6653</strong></a> / <a href="tel:6094264362">(609) 426-4362</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>200 Mercer St, Hightstown, NJ 08520</span>
+          </div>
+        </div>
+
+        <table class="hours-table">
+          <thead>
+            <tr>
+              <th colspan="2" style="text-align: left; padding-bottom: 1rem; color: var(--white); font-size: 1.1rem;">Hours of Operation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="hours-day">Monday</td>
+              <td class="hours-time">9:00 AM – 12:30 PM</td>
+            </tr>
+            <tr>
+              <td class="hours-day">Tuesday – Thursday</td>
+              <td class="hours-time">9:00 AM – 4:30 PM</td>
+            </tr>
+            <tr>
+              <td class="hours-day">Friday</td>
+              <td class="hours-time">9:00 AM – 6:00 PM</td>
+            </tr>
+            <tr>
+              <td class="hours-day">Saturday</td>
+              <td class="hours-time">10:00 AM – 2:00 PM</td>
+            </tr>
+            <tr>
+              <td class="hours-day">Sunday</td>
+              <td class="hours-time">Closed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="map-container">
+        <!-- Google Map Embedded -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.0305881432135!2d-74.52737602344795!3d40.27506927142278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c15814cb2a7861%3A0xc3f8e5fbd64287bb!2s200%20Mercer%20St%2C%20Hightstown%2C%20NJ%2008520!5e0!3m2!1sen!2sus!4v1718000000000!5m2!1sen!2sus" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </section>
 
-  <footer class="py-10 text-center border-t border-club-gray text-gray-500 text-sm">
-    <p>&copy; 2026 Randolph Shoe Care. All rights reserved.</p>
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">Randolph <span>Shoe Care</span></div>
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Randolph Shoe Care. All rights reserved.</p>
+    </div>
   </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged gallery view">
+    </div>
+  </div>
+
+  <!-- Javascript Logic -->
+  <script>
+    // Gallery Filtering
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gallery-item');
+      const buttons = document.querySelectorAll('.tab-btn');
+
+      // Update active tab styling
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('onclick').includes(category)) {
+          btn.classList.add('active');
+        }
+      });
+
+      // Filter gallery items
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'block';
+          setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'scale(1)';
+          }, 50);
+        } else {
+          item.style.opacity = '0';
+          item.style.transform = 'scale(0.95)';
+          setTimeout(() => {
+            item.style.display = 'none';
+          }, 300);
+        }
+      });
+    }
+
+    // Lightbox Modal functions
+    function openLightbox(element) {
+      const imgUrl = element.querySelector('img').src;
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+
+      lightboxImg.src = imgUrl;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Lock background scrolling
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.classList.remove('active');
+      document.body.style.overflow = 'auto'; // Unlock background scrolling
+    }
+
+    // Close lightbox on escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeLightbox();
+      }
+    });
+  </script>
 </body>
 </html>
