@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Shoe Repair & Restoration | Randolph Shoe Care Hightstown NJ</title>
-  <meta name="description" content="Randolph Shoe Care provides premium shoe repair, cleaning, and complete restoration services in Hightstown, NJ. Call (609) 426-4362 for expert leather craftsmanship.">
+  <title>Premium Shoe Repair & Restoration | Randolph's Shoe Care Hightstown NJ</title>
+  <meta name="description" content="Randolph's Shoe Care provides premium shoe repair, cleaning, and complete restoration services in Hightstown, NJ. Call (609) 426-4362 for expert leather craftsmanship.">
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
   <!-- Glassmorphic Header -->
   <header class="site-header">
     <div class="header-container">
-      <div class="logo">Randolph <span>Shoe Care</span></div>
+      <div class="logo">Randolph's <span>Shoe Care</span></div>
       <nav class="main-nav">
         <a href="#about" class="nav-link">About</a>
         <a href="#services" class="nav-link">Services</a>
@@ -28,11 +28,19 @@
     <span class="hero-subtitle">Extraordinary Craftsmanship Since 1999</span>
     <h1 class="hero-title">Revive Your Favorite Footwear</h1>
     <p class="hero-description">
-      Specializing in premium leather restorations, designer shoe repairs, and athletic sneaker cleaning. Trust Randolph's expert hand-craftsmanship in Hightstown, NJ.
+      Specializing in premium leather restorations, designer shoe repairs, and athletic sneaker cleaning. Trust Randolph's Shoe Care expert hand-craftsmanship in Hightstown, NJ.
     </p>
     <div class="hero-ctas">
       <a href="tel:6094264362" class="btn-primary">Call (609) 426-4362</a>
       <a href="#gallery" class="btn-secondary">View Our Work</a>
+    </div>
+  </section>
+
+  <!-- Patriotic Banner -->
+  <section class="patriotic-banner">
+    <img src="./assets/patriotic.jpg" alt="Randolph's Shoe Care — Proudly American" />
+    <div class="patriotic-overlay">
+      <span>Proudly Serving Our Community Since 1999</span>
     </div>
   </section>
 
@@ -42,13 +50,13 @@
       <div class="about-text">
         <h2>Preserving Quality & Comfort</h2>
         <p>
-          Every pair of shoes tells a story. At Randolph Shoe Care, we help you extend those stories. Backed by a 4.7-star rating, we combine traditional cobbling methods with premium modern products to revive dress shoes, rugged boots, high-end designer pieces, and favorite everyday sneakers.
+          Every pair of shoes tells a story. At Randolph's Shoe Care, we help you extend those stories. Backed by a 4.7-star rating, we combine traditional cobbling methods with premium modern products to revive dress shoes, rugged boots, high-end designer pieces, and favorite everyday sneakers.
         </p>
         <p>
           We take pride in providing honest advice and premium materials. Whether it's a simple heel replacement or a full sole restoration, your shoes are treated with the highest care.
         </p>
       </div>
-      <div class="badge-card">
+      <div class="badge-card" style="display: none;">
         <span class="badge-icon">🏆</span>
         <h3>BusinessRate Award</h3>
         <p>Recognized for outstanding business performance and dedication to customer service in Hightstown, NJ.</p>
@@ -94,10 +102,10 @@
       <div class="service-card">
         <div class="service-icon">👟</div>
         <h3>Specialty Work</h3>
-        <p>Masterful repairs on luxury designer brands, riding boots, and sneaker collections.</p>
+        <p>Masterful repairs on luxury designer brands, riding boots, and white leather deep sneaker cleaning.</p>
         <ul class="service-features">
+          <li>White leather deep sneaker cleaning</li>
           <li>Giuseppe Zanotti & luxury repairs</li>
-          <li>Sneaker deep-cleaning & paint touch-ups</li>
           <li>Eyelet & zipper replacements</li>
           <li>Custom fitting & stretching</li>
         </ul>
@@ -115,92 +123,172 @@
       <button class="tab-btn active" onclick="filterGallery('all')">All Work</button>
       <button class="tab-btn" onclick="filterGallery('repairs')">Repairs & Soles</button>
       <button class="tab-btn" onclick="filterGallery('dress')">Dress & Leather</button>
+      <button class="tab-btn" onclick="filterGallery('specialty')">Sneakers & Specialty</button>
     </div>
     <div class="gallery-grid">
-      <!-- Repairs -->
+
+      <!-- Repairs & Soles -->
       <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_6.jpg" alt="Shoe repair example">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Heel & Sole Replacement</h4>
-            <p>Repairs & Soles</p>
-          </div>
-        </div>
+        <img src="./assets/shoe_repair_3.jpg" alt="White Chanel flat sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>White Chanel Flat — Rubber Sole Installation</h4><p>Repairs & Soles</p>
+        </div></div>
       </div>
       <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_2.jpg" alt="Stitching and structural repair">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Structural Re-sole</h4>
-            <p>Repairs & Soles</p>
-          </div>
-        </div>
+        <img src="./assets/shoe_repair_9.jpg" alt="Black leather ballet flat full leather sole">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Black Leather Ballet Flat — Full Leather Sole</h4><p>Repairs & Soles</p>
+        </div></div>
       </div>
       <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_3.jpg" alt="Resoling boots">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Boot Restoration</h4>
-            <p>Repairs & Soles</p>
-          </div>
-        </div>
+        <img src="./assets/shoe_repair_2.jpg" alt="Turquoise distressed cowboy boot sole restoration">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Turquoise Distressed Cowboy Boot — Sole Restoration</h4><p>Repairs & Soles</p>
+        </div></div>
       </div>
-      <!-- Dress Shoes -->
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_5.jpg" alt="Brown Italian leather zip ankle boot re-sole">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Brown Italian Leather Zip Boot — Full Re-sole</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_8.jpg" alt="Maison Margiela Tabi heel sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Maison Margiela Tabi Heel — Rubber Sole Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_12.jpg" alt="Navy Gucci suede loafer sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Navy Gucci Suede Loafer — Sole Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_3.jpg" alt="Black lizard-print heels Vibram sole restoration">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Black Lizard-Print Heels — Vibram Sole Restoration</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_5.jpg" alt="Black Gucci horsebit loafer sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Black Gucci Horsebit Loafer — Sole Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/products_1.jpg" alt="Royal blue metallic flats sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Royal Blue Metallic Flats — Sole Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_10.jpg" alt="Oxblood Lucchese riding boot heel replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Oxblood Riding Boot — Heel Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_15.jpg" alt="Cream knee-high boots leather restoration">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Cream Knee-High Boots — Leather Restoration</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+
+      <!-- Dress & Leather -->
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_1.jpg" alt="Polished brown dress shoe">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Classic Oxford Shine</h4>
-            <p>Dress & Leather</p>
-          </div>
-        </div>
+        <img src="./assets/dress_shoes_1.jpg" alt="Burgundy Chanel patent pointed-toe flats">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Burgundy Chanel Patent Flats</h4><p>Women's — Dress & Leather</p>
+        </div></div>
       </div>
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_2.jpg" alt="Polished black leather shoes">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Leather Conditioning</h4>
-            <p>Dress & Leather</p>
-          </div>
-        </div>
+        <img src="./assets/dress_shoes_2.jpg" alt="Tan black Chanel slingback heels">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Tan/Black Chanel Slingback Heels</h4><p>Women's — Dress & Leather</p>
+        </div></div>
       </div>
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_3.jpg" alt="Luxury designer shoe service">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Premium Detail & Color</h4>
-            <p>Dress & Leather</p>
-          </div>
-        </div>
-      </div>
-      <!-- Mixed category highlights -->
-      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_4.jpg" alt="Sole repair closeup">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Full Sole Stitching</h4>
-            <p>Repairs & Soles</p>
-          </div>
-        </div>
+        <img src="./assets/dress_shoes_6.jpg" alt="Grey black Chanel ankle boots">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Grey/Black Chanel Ankle Boots</h4><p>Women's — Dress & Leather</p>
+        </div></div>
       </div>
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_4.jpg" alt="Dress shoe restoration">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Restored Loafers</h4>
-            <p>Dress & Leather</p>
-          </div>
-        </div>
+        <img src="./assets/dress_shoes_7.jpg" alt="Brown python skin cowboy boots">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Brown Python Skin Cowboy Boots</h4><p>Men's — Dress & Leather</p>
+        </div></div>
       </div>
-      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_5.jpg" alt="Cobbler finishing sole">
-        <div class="gallery-overlay">
-          <div class="gallery-info">
-            <h4>Precision Edging</h4>
-            <p>Repairs & Soles</p>
-          </div>
-        </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_8.jpg" alt="Metallic silver Chanel strappy sandals">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Metallic Silver Chanel Strappy Sandals</h4><p>Women's — Dress & Leather</p>
+        </div></div>
       </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_9.jpg" alt="Brown Gucci horsebit ankle boots">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Brown Gucci Horsebit Ankle Boots</h4><p>Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_4.jpg" alt="Black designer loafers custom sole">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Black Designer Loafers — Custom Red Sole</h4><p>Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_4.jpg" alt="Black gold strappy Giuseppe Zanotti platform heels">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Black & Gold Strappy Platform Heels</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_7.jpg" alt="Saint Laurent YSL black leather boot">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Saint Laurent (YSL) Black Leather Boot</h4><p>Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_10.jpg" alt="Steve Madden newspaper print stiletto heels">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Steve Madden Newspaper Print Stilettos</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_14.jpg" alt="Royal blue bow-tie leather heels">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Royal Blue Bow-Tie Heels</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+
+      <!-- Sneakers & Specialty -->
+      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_1.jpg" alt="White Chanel quilted flat white leather deep clean">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>White Chanel Quilted Flat — Deep Clean & Restore</h4><p>Sneakers & Specialty</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_11.jpg" alt="Leather vest September 11 memorial biker patches">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Leather Vest — September 11 Memorial Patches</h4><p>Sneakers & Specialty</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_6.jpg" alt="Randolph's drop off box 24/7">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>24/7 Drop-Off Box</h4><p>Sneakers & Specialty</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_13.jpg" alt="Randolph's Professional Shoe Care branded cap">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Randolph's Professional Shoe Care</h4><p>Est. 1999 — Hightstown, NJ</p>
+        </div></div>
+      </div>
+
     </div>
   </section>
 
@@ -215,6 +303,10 @@
           <div class="contact-item">
             <span class="contact-icon">📞</span>
             <a href="tel:6094264362"><strong>(609) 426-4362</strong></a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💬</span>
+            <a href="sms:6094264362"><strong>Text Us: (609) 426-4362</strong></a>
           </div>
           <div class="contact-item">
             <span class="contact-icon">📍</span>
@@ -268,14 +360,14 @@
   <!-- Site Footer -->
   <footer class="site-footer">
     <div class="footer-container">
-      <div class="footer-logo">Randolph <span>Shoe Care</span></div>
+      <div class="footer-logo">Randolph's <span>Shoe Care</span></div>
       <div class="footer-nav">
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
       </div>
-      <p class="footer-copyright">&copy; 2026 Randolph Shoe Care. All rights reserved.</p>
+      <p class="footer-copyright">&copy; 2026 Randolph's Shoe Care. All rights reserved.</p>
     </div>
   </footer>
 
