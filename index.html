@@ -12,7 +12,10 @@
   <!-- Glassmorphic Header -->
   <header class="site-header">
     <div class="header-container">
-      <div class="logo">Randolph's <span>Shoe Care</span></div>
+      <div class="logo">
+        <img src="./assets/IMG_4848.png" alt="Randolph's Shoe Care Logo Icon" class="logo-icon" />
+        Randolph's <span>Shoe Care</span>
+      </div>
       <nav class="main-nav">
         <a href="#about" class="nav-link">About</a>
         <a href="#services" class="nav-link">Services</a>
@@ -56,7 +59,7 @@
           We take pride in providing honest advice and premium materials. Whether it's a simple heel replacement or a full sole restoration, your shoes are treated with the highest care.
         </p>
       </div>
-      <div class="badge-card" style="display: none;">
+      <div class="badge-card">
         <span class="badge-icon">🏆</span>
         <h3>BusinessRate Award</h3>
         <p>Recognized for outstanding business performance and dedication to customer service in Hightstown, NJ.</p>
@@ -104,7 +107,7 @@
         <h3>Specialty Work</h3>
         <p>Masterful repairs on luxury designer brands, riding boots, and white leather deep sneaker cleaning.</p>
         <ul class="service-features">
-          <li>White leather deep sneaker cleaning</li>
+          <li>White leather deep sneakers cleaning</li>
           <li>Giuseppe Zanotti & luxury repairs</li>
           <li>Eyelet & zipper replacements</li>
           <li>Custom fitting & stretching</li>
@@ -128,6 +131,24 @@
     <div class="gallery-grid">
 
       <!-- Repairs & Soles -->
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_11.jpg" alt="Leather vest September 11 memorial biker patches">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Leather Vest — September 11 Memorial Patches</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_7.jpg" alt="Brown python skin cowboy boots">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Brown Python Skin Cowboy Boots</h4><p>Men's — Repairs & Soles</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
+        <img src="./assets/products_1.jpg" alt="Royal blue metallic flats sole replacement">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Royal Blue Metallic Flats — Sole Replacement</h4><p>Repairs & Soles</p>
+        </div></div>
+      </div>
       <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
         <img src="./assets/shoe_repair_3.jpg" alt="White Chanel flat sole replacement">
         <div class="gallery-overlay"><div class="gallery-info">
@@ -177,12 +198,6 @@
         </div></div>
       </div>
       <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
-        <img src="./assets/products_1.jpg" alt="Royal blue metallic flats sole replacement">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Royal Blue Metallic Flats — Sole Replacement</h4><p>Repairs & Soles</p>
-        </div></div>
-      </div>
-      <div class="gallery-item" data-category="repairs" onclick="openLightbox(this)">
         <img src="./assets/dress_shoes_10.jpg" alt="Oxblood Lucchese riding boot heel replacement">
         <div class="gallery-overlay"><div class="gallery-info">
           <h4>Oxblood Riding Boot — Heel Replacement</h4><p>Repairs & Soles</p>
@@ -197,6 +212,24 @@
 
       <!-- Dress & Leather -->
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_6.jpg" alt="Grey black Chanel ankle boots">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Grey/Black Chanel Ankle Boots</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/dress_shoes_8.jpg" alt="Metallic silver Chanel strappy sandals">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Metallic Silver Chanel Strappy Sandals</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_14.jpg" alt="Royal blue bow-tie leather heels">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>Royal Blue Bow-Tie Heels</h4><p>Women's — Dress & Leather</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
         <img src="./assets/dress_shoes_1.jpg" alt="Burgundy Chanel patent pointed-toe flats">
         <div class="gallery-overlay"><div class="gallery-info">
           <h4>Burgundy Chanel Patent Flats</h4><p>Women's — Dress & Leather</p>
@@ -206,24 +239,6 @@
         <img src="./assets/dress_shoes_2.jpg" alt="Tan black Chanel slingback heels">
         <div class="gallery-overlay"><div class="gallery-info">
           <h4>Tan/Black Chanel Slingback Heels</h4><p>Women's — Dress & Leather</p>
-        </div></div>
-      </div>
-      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_6.jpg" alt="Grey black Chanel ankle boots">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Grey/Black Chanel Ankle Boots</h4><p>Women's — Dress & Leather</p>
-        </div></div>
-      </div>
-      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_7.jpg" alt="Brown python skin cowboy boots">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Brown Python Skin Cowboy Boots</h4><p>Men's — Dress & Leather</p>
-        </div></div>
-      </div>
-      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/dress_shoes_8.jpg" alt="Metallic silver Chanel strappy sandals">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Metallic Silver Chanel Strappy Sandals</h4><p>Women's — Dress & Leather</p>
         </div></div>
       </div>
       <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
@@ -256,30 +271,18 @@
           <h4>Steve Madden Newspaper Print Stilettos</h4><p>Women's — Dress & Leather</p>
         </div></div>
       </div>
-      <div class="gallery-item" data-category="dress" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_14.jpg" alt="Royal blue bow-tie leather heels">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Royal Blue Bow-Tie Heels</h4><p>Women's — Dress & Leather</p>
-        </div></div>
-      </div>
 
       <!-- Sneakers & Specialty -->
-      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_1.jpg" alt="White Chanel quilted flat white leather deep clean">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>White Chanel Quilted Flat — Deep Clean & Restore</h4><p>Sneakers & Specialty</p>
-        </div></div>
-      </div>
-      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
-        <img src="./assets/shoe_repair_11.jpg" alt="Leather vest September 11 memorial biker patches">
-        <div class="gallery-overlay"><div class="gallery-info">
-          <h4>Leather Vest — September 11 Memorial Patches</h4><p>Sneakers & Specialty</p>
-        </div></div>
-      </div>
       <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
         <img src="./assets/shoe_repair_6.jpg" alt="Randolph's drop off box 24/7">
         <div class="gallery-overlay"><div class="gallery-info">
           <h4>24/7 Drop-Off Box</h4><p>Sneakers & Specialty</p>
+        </div></div>
+      </div>
+      <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
+        <img src="./assets/shoe_repair_1.jpg" alt="White Chanel quilted flat white leather deep clean">
+        <div class="gallery-overlay"><div class="gallery-info">
+          <h4>White Chanel Quilted Flat — Deep Clean & Restore</h4><p>Sneakers & Specialty</p>
         </div></div>
       </div>
       <div class="gallery-item" data-category="specialty" onclick="openLightbox(this)">
