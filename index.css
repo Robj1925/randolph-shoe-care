@@ -126,8 +126,6 @@ h1, h2, h3, h4 {
 }
 
 .logo-shoe {
-  width: 24px;
-  height: 24px;
   color: var(--primary-hover);
   display: inline-block;
   vertical-align: middle;
@@ -136,11 +134,14 @@ h1, h2, h3, h4 {
 }
 
 .logo-shoe-left {
+  width: auto;
+  height: 26px;
   transform: scaleX(-1);
 }
 
 .logo-shoe-right {
-  transform: none;
+  width: 32px;
+  height: auto;
 }
 
 .logo:hover .logo-shoe-left {
