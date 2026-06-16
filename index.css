@@ -135,17 +135,21 @@ h1, h2, h3, h4 {
   transition: var(--transition-smooth);
 }
 
-.logo-shoe-right {
+.logo-shoe-left {
   transform: scaleX(-1);
 }
 
+.logo-shoe-right {
+  transform: none;
+}
+
 .logo:hover .logo-shoe-left {
-  transform: translateX(-3px);
+  transform: scaleX(-1) translateX(3px);
   color: var(--white);
 }
 
 .logo:hover .logo-shoe-right {
-  transform: scaleX(-1) translateX(-3px);
+  transform: translateX(3px);
   color: var(--white);
 }
 
