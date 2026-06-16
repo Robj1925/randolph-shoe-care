@@ -122,6 +122,7 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .logo-icon {
@@ -138,6 +139,8 @@ h1, h2, h3, h4 {
 .main-nav {
   display: flex;
   gap: 2.5rem;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .nav-link {
@@ -177,6 +180,8 @@ h1, h2, h3, h4 {
   font-size: 0.875rem;
   font-weight: 600;
   box-shadow: 0 4px 14px var(--primary-glow);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .cta-btn:hover {
