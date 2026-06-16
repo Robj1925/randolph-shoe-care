@@ -121,15 +121,32 @@ h1, h2, h3, h4 {
   letter-spacing: -0.01em;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
   flex-shrink: 0;
 }
 
-.logo-icon {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  border-radius: 4px;
+.logo-shoe {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-hover);
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  transition: var(--transition-smooth);
+}
+
+.logo-shoe-right {
+  transform: scaleX(-1);
+}
+
+.logo:hover .logo-shoe-left {
+  transform: translateX(-3px);
+  color: var(--white);
+}
+
+.logo:hover .logo-shoe-right {
+  transform: scaleX(-1) translateX(-3px);
+  color: var(--white);
 }
 
 .logo span {
